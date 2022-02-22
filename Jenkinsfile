@@ -2,17 +2,17 @@
 pipeline {
     agent any
     stages {
-        stage('Create user account') {
+        stage('What is your name') {
            
             steps {
-                sh 'useradd fola && echo "reset4U$" |passwd --stdin fola'
+                echo 'My name is Abbey cheche'
                 
             }
         }
-        stage('Check Fola ID') {
+        stage('Check date') {
            
             steps {
-                sh 'id fola'
+                sh 'date'
                
             }
         }
