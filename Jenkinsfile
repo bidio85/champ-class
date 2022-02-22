@@ -1,6 +1,6 @@
 #!/bin/Groovy
 pipeline {
-    agent none 
+    agent any
     stages {
         stage('Create user account') {
            
