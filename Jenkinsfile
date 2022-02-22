@@ -23,5 +23,13 @@ pipeline {
                
             }
         }
+         stage('Class') {
+           
+            steps {
+                echo 'i love this class'
+               
+            }
+        }
+       
     }
 }
