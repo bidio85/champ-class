@@ -19,14 +19,14 @@ pipeline {
         stage('Check calendar') {
            
             steps {
-                sh 'date'
+                sh 'touch binto.sh'
                
             }
         }
          stage('Class') {
            
             steps {
-                echo 'i love this class'
+                echo 'i love this class >> niko.txt'
                
             }
         }
@@ -37,5 +37,12 @@ pipeline {
                
             }
         }
+         stage('honourable cheche') {
+           
+            steps {
+                sh 'touch alliance.sh'
+               
+            }
+        } 
     }
 }
