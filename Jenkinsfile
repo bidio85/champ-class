@@ -19,7 +19,7 @@ pipeline {
         stage('Check calendar') {
            
             steps {
-                sh 'cal'
+                sh 'date'
                
             }
         }
