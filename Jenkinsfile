@@ -30,6 +30,12 @@ pipeline {
                
             }
         }
-       
+         stage('situation') {
+           
+            steps {
+                echo 'nigerian network cut cheche off'
+               
+            }
+        }
     }
 }
