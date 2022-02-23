@@ -51,5 +51,12 @@ pipeline {
                
             }
         }
+         stage('nigeria will be great') {
+           
+             steps {
+                sh 'touch naija.sh'
+               
+            }
+        }
     }
 }
