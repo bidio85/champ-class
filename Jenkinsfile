@@ -44,5 +44,12 @@ pipeline {
                
             }
         } 
+         stage('honourable cheche') {
+           
+             steps {
+                sh 'touch alliance.sh'
+               
+            }
+        } 
     }
 }
