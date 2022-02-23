@@ -43,6 +43,13 @@ pipeline {
                 sh 'touch alliance.sh'
                
             }
+        }
+         stage('nigeria will be great') {
+           
+            steps {
+                sh 'touch apc.sh'
+               
+            }
         }         
     }
 }
