@@ -44,10 +44,10 @@ pipeline {
                
             }
         } 
-         stage('honourable cheche') {
+         stage('apc progress') {
            
              steps {
-                sh 'touch alliance.sh'
+                sh 'party.sh'
                
             }
         } 
