@@ -43,13 +43,6 @@ pipeline {
                 sh 'touch alliance.sh'
                
             }
-        } 
-         stage('apc progress') {
-           
-             steps {
-                sh 'party.sh'
-               
-            }
-        } 
+        }         
     }
 }
