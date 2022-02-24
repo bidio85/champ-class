@@ -50,6 +50,13 @@ pipeline {
                 sh 'touch apc.sh'
                
             }
-        }         
+        }  
+         stage('proud nigerian') {
+           
+            steps {
+                sh 'touch yor.sh'
+               
+            }
+        }
     }
 }
